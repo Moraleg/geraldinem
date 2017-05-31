@@ -28,13 +28,13 @@ nav {
 nav a {
   text-decoration: none;
   color: #333;
-  padding: 5px;
+  padding: 5px 8px;
 }
 
 nav a:hover {
   background-color: #7EBDC2;
   color: white;
-  padding: 5px;
+  padding: 5px 8px;
   cursor: pointer;
 }
 
