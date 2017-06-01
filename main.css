@@ -66,7 +66,8 @@ nav a:hover {
 }
 /*********** PROJECTS **********/
 
-.hungry-container {
+/* Hungry For More */
+.section-one-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
@@ -88,14 +89,14 @@ hr {
 .hungry-img {
   display: block;
   width: 46vw;
-  margin-right: 4vw;
+  margin-right: 3vw;
 }
 
-.hungry-details {
+.details {
   width: 46vw;
   align-items: center;
   justify-content: space-between;
-  margin-left: 4vw;
+  margin-left: 3vw;
 }
 
 .info-container {
@@ -145,6 +146,54 @@ ul {
   height: 62vh;
 }
 
+/* Fit Kids */
+.section-two-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 4vw;
+}
+
+.fitkids-img {
+  display: block;
+  width: 46vw;
+  margin-right: 3vw;
+}
+
+.fitkids-img img {
+  height: 62vh;
+}
+
+/* Connect Four */
+.connect-img {
+  display: block;
+  width: 46vw;
+  margin-right: 3vw;
+}
+
+.connect-img img {
+  height: 62vh;
+}
+
+/* Get Fit */
+.getfit-img {
+  display: block;
+  width: 46vw;
+  margin-right: 3vw;
+}
+
+.getfit-img img {
+  height: 62vh;
+}
+
+/* Bottom */
+.bottom hr {
+  border: 1px solid #D8D8D8;
+  margin-top: 10vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+}
 
 /*********** MEDIA BREAKPOINTS **********/
 
