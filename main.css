@@ -1,8 +1,37 @@
+/** {
+  border: 2px solid crimson;
+}*/
 body {
   margin: 2% 0;
   padding: 0;
   font-family: 'Helvetica Neue', sans-serif;
   color: #333;
+}
+
+.vertical-text {
+  transform: rotate(450deg);
+    transform-origin: left top 0;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 50px;
+    position: fixed;
+    display: inline-block;
+    color: #2a2a2a;
+}
+.vertical-text-w {
+    transform: rotate(4500deg);
+    transform-origin: left top 0;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 50px;
+    position: fixed;
+    display: inline-block;
+    color: #fff;
+    z-index: 300 !important;
 }
 /*********** HEADER ***********/
 header {
@@ -44,7 +73,8 @@ nav a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 18vh;
+  margin-top: 16vh;
+  margin-bottom: 5vh;
 }
 
 .name {
@@ -72,7 +102,7 @@ nav a:hover {
   flex-flow: row nowrap;
   justify-content: space-around;
   margin-top: 15vh;
-  padding: 4vw;
+  padding: 3vw;
 }
 
 hr {
@@ -84,19 +114,28 @@ hr {
 
 .title {
   margin-bottom: 2%;
-  margin-top: 0;
+  margin-top: 3%;
 }
+
 .hungry-img {
   display: block;
-  width: 46vw;
-  margin-right: 3vw;
+  width: 50vw;
+  margin-left: 2vw;
+
 }
 
 .details {
-  width: 46vw;
+  width: 50vw;
   align-items: center;
   justify-content: space-between;
-  margin-left: 3vw;
+  margin-left: 4vw;
+}
+
+.details-inverted {
+  width: 50vw;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 6vw;
 }
 
 .info-container {
@@ -106,7 +145,7 @@ hr {
 .info {
   line-height: 1.8;
   color: #989DA1;
-  margin: 4.5% 0;
+  margin: 6% 0 4% 0;
 }
 
 .tag {
@@ -117,12 +156,14 @@ hr {
 ul {
   padding: 0;
 }
+
 .tech {
   width: 12%;
   display: inline-flex;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 6%;
 }
+
 
 .btn {
   border: 2px solid #D8D8D8;
@@ -151,12 +192,12 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  padding: 4vw;
+  padding: 0 2vw;
 }
 
 .fitkids-img {
   display: block;
-  width: 46vw;
+  width: 50vw;
   margin-right: 3vw;
 }
 
@@ -167,23 +208,24 @@ ul {
 /* Connect Four */
 .connect-img {
   display: block;
-  width: 46vw;
-  margin-right: 3vw;
+  width: 50vw;
+  margin-left: 2vw;
 }
 
 .connect-img img {
   height: 62vh;
 }
 
+
 /* Get Fit */
 .getfit-img {
   display: block;
-  width: 46vw;
+  width: 50vw;
   margin-right: 3vw;
 }
 
 .getfit-img img {
-  height: 62vh;
+  height: 44vh;
 }
 
 /* Bottom */
@@ -195,6 +237,23 @@ ul {
   justify-content: center;
 }
 
+.bottom-content {
+  text-align: center;
+  display: block;
+}
+
+.hello {
+  margin-top: 8vh;
+  letter-spacing: 0.46px;
+}
+
+.discuss {
+  margin-bottom: 0;
+}
+
+.get-in-touch {
+  margin-top: 1.5vh;
+}
 /*********** MEDIA BREAKPOINTS **********/
 
 @media (max-width: 700px) {
