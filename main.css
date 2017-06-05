@@ -67,6 +67,8 @@ nav a:hover {
   cursor: pointer;
 }
 
+
+
 /*********** CENTER INTRO **********/
 
 .center-container {
@@ -123,20 +125,20 @@ hr {
 
 .hungry-img {
   display: block;
-  width: 50vw;
+  width: 100vw;
   margin-left: 2vw;
 
 }
 
 .details {
-  width: 50vw;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
   margin-left: 4vw;
 }
 
 .details-inverted {
-  width: 50vw;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
   margin-left: 6vw;
@@ -220,7 +222,7 @@ ul {
 
 .fitkids-img {
   display: block;
-  width: 50vw;
+  width: 100vw;
   margin-right: 3vw;
 }
 
@@ -231,7 +233,7 @@ ul {
 /* Connect Four */
 .connect-img {
   display: block;
-  width: 50vw;
+  width: 100vw;
   margin-left: 2vw;
 }
 
@@ -243,7 +245,7 @@ ul {
 /* Get Fit */
 .getfit-img {
   display: block;
-  width: 50vw;
+  width: 100vw;
   margin-right: 3vw;
 }
 
@@ -289,6 +291,10 @@ ul {
   .center-container {
     width: 80%;
     margin: 16vh auto 5vh auto;
+  }
+
+  .name {
+    font-size: 2.0em;
   }
 
   .details {
@@ -366,6 +372,125 @@ ul {
   .section-two-container {
     width: 100vw;
     margin-bottom: 8%;
+  }
+
+}
+
+
+@media (max-width: 550px) {
+
+  .center-container {
+    width: 70%;
+    margin: 16vh auto 5vh auto;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .details {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+  .details-inverted {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+
+  .title {
+    margin-top: 0;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  .tech {
+    display: inline-flex;
+    flex-flow: row wrap;
+
+  }
+  .tech-html {
+    flex-flow: row wrap;
+    display: inline-flex;
+
+  }
+  .basic-tech {
+    display: inline-flex;
+    flex-flow: row wrap;
+
+
+  }
+
+  .hungry-img {
+    width: 100%;
+  }
+  .hungry-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .connect-img {
+    width: 100%;
+  }
+
+  .connect-img img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .fitkids-img {
+    width: 100%;
+  }
+  .fitkids-img img {
+    width: 100%;
+    height: 85%;
+  }
+
+
+  .getfit-img {
+    width: 100%;
+  }
+  .getfit-img img {
+    width: 100%;
+    height: 55%;
+  }
+  .section-one-container {
+    width: 100vw;
+    margin-bottom: 5%;
+  }
+  .section-two-container {
+    width: 100vw;
+    margin-bottom: 8%;
+  }
+
+
+  .title {
+    font-size: 1.2em
+  }
+
+  .info {
+    font-size: .7em;
+  }
+
+  li {
+    font-size: .7em;
+  }
+
+  .btn {
+    font-size: .8em;
+  }
+
+  .hello {
+    font-size: 1.0em;
+  }
+
+  .discuss {
+    font-size: .7em;
+  }
+  .get-in-touch {
+    font-size: .7em;
   }
 
 }
