@@ -287,7 +287,8 @@ ul {
 @media (max-width: 800px) {
 
   .center-container {
-    width: 100%;
+    width: 80%;
+    margin: 16vh auto 5vh auto;
   }
 
   .details {
