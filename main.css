@@ -77,6 +77,10 @@ nav a:hover {
   margin-bottom: 5vh;
 }
 
+.hidden {
+  display: none;
+}
+
 .name {
   font-size: 2.5em;
   letter-spacing: 2.45px;
@@ -158,10 +162,29 @@ ul {
 }
 
 .tech {
-  width: 12%;
+  width: 10%;
   display: inline-flex;
   font-weight: 600;
   margin-bottom: 6%;
+  text-align: center;
+  margin-left: 12%;
+}
+
+.tech-html {
+  width: 10%;
+  display: inline-flex;
+  font-weight: 600;
+  margin-bottom: 6%;
+  text-align: center;
+}
+
+.basic-tech {
+  width: 8%;
+  display: inline-flex;
+  font-weight: 600;
+  margin-bottom: 6%;
+  text-align: center;
+  margin-left: 25px;
 }
 
 
@@ -254,9 +277,90 @@ ul {
 .get-in-touch {
   margin-top: 1.5vh;
 }
+
+.get-in-touch a {
+  text-decoration: none;
+  color: #333;
+}
 /*********** MEDIA BREAKPOINTS **********/
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
+  .center-container {
+    width: 100%;
+  }
+
+  .details {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+  .details-inverted {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+
+  .title {
+    margin-top: 0;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  .tech {
+    display: block;
+    margin: 0 0 8px 0;
+  }
+  .tech-html {
+    display: block;
+    margin: 0 0 8px 0;
+  }
+  .basic-tech {
+    display: block;
+    margin: 0 0 8px 0;
+  }
+
+  .hungry-img {
+    width: 100%;
+  }
+  .hungry-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .connect-img {
+    width: 100%;
+  }
+
+  .connect-img img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .fitkids-img {
+    width: 100%;
+  }
+  .fitkids-img img {
+    width: 100%;
+    height: 85%;
+  }
+
+
+  .getfit-img {
+    width: 100%;
+  }
+  .getfit-img img {
+    width: 100%;
+    height: 85%;
+  }
+  .section-one-container {
+    width: 100vw;
+    margin-bottom: 5%;
+  }
+  .section-two-container {
+    width: 100vw;
+    margin-bottom: 8%;
+  }
 
 }
