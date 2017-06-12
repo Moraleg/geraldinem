@@ -319,7 +319,7 @@ ul {
   .tech {
     display: inline-flex;
     flex-flow: row wrap;
-
+    margin-left: 26%;
   }
   .tech-html {
     flex-flow: row wrap;
@@ -329,8 +329,6 @@ ul {
   .basic-tech {
     display: inline-flex;
     flex-flow: row wrap;
-
-
   }
 
   .hungry-img {
@@ -338,7 +336,8 @@ ul {
   }
   .hungry-img img {
     width: 100%;
-    height: 100%;
+    height: 65%;
+    margin-top: 22%;
   }
   .connect-img {
     width: 100%;
@@ -346,7 +345,8 @@ ul {
 
   .connect-img img {
     width: 100%;
-    height: 80%;
+    height: 60%;
+    margin-top: 22%;
   }
 
   .fitkids-img {
@@ -354,7 +354,8 @@ ul {
   }
   .fitkids-img img {
     width: 100%;
-    height: 85%;
+    height: 60%;
+    margin-top: 22%;
   }
 
 
@@ -363,7 +364,8 @@ ul {
   }
   .getfit-img img {
     width: 100%;
-    height: 80%;
+    height: 50%;
+    margin-top: 22%;
   }
   .section-one-container {
     width: 100vw;
@@ -378,6 +380,10 @@ ul {
 
 
 @media (max-width: 550px) {
+
+  body {
+    margin: 0 auto;
+  }
 
   .center-container {
     width: 70%;
@@ -404,12 +410,13 @@ ul {
   }
 
   ul {
-    margin-bottom: 0;
+    margin: 0;
   }
 
   .tech {
     display: inline-flex;
     flex-flow: row wrap;
+    margin-left: 26%;
 
   }
   .tech-html {
@@ -429,7 +436,8 @@ ul {
   }
   .hungry-img img {
     width: 100%;
-    height: 100%;
+    height: 65%;
+    margin-top: 22%;
   }
   .connect-img {
     width: 100%;
@@ -437,7 +445,8 @@ ul {
 
   .connect-img img {
     width: 100%;
-    height: 80%;
+    height: 55%;
+    margin-top: 22%;
   }
 
   .fitkids-img {
@@ -445,16 +454,17 @@ ul {
   }
   .fitkids-img img {
     width: 100%;
-    height: 85%;
+    height: 65%;
+    margin-top: 22%;
   }
-
 
   .getfit-img {
     width: 100%;
   }
   .getfit-img img {
     width: 100%;
-    height: 55%;
+    height: 40%;
+    margin-top: 22%;
   }
   .section-one-container {
     width: 100vw;
@@ -465,13 +475,13 @@ ul {
     margin-bottom: 8%;
   }
 
-
   .title {
     font-size: 1.2em
   }
 
   .info {
     font-size: .7em;
+    line-height: 1.4;
   }
 
   li {
@@ -492,5 +502,4 @@ ul {
   .get-in-touch {
     font-size: .7em;
   }
-
 }
