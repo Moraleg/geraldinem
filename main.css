@@ -1,3 +1,5 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
 /** {
   border: 2px solid crimson;
 }*/
@@ -285,6 +287,23 @@ ul {
   text-decoration: none;
   color: #333;
 }
+
+.fa-github {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2BCEC5;
+  cursor: pointer;
+}
+
+.fa-linkedin-square {
+  display: inline-block;
+}
+
+.fa-envelope {
+  display: inline-block;
+
+}
 /*********** MEDIA BREAKPOINTS **********/
 
 @media (max-width: 800px) {
@@ -393,7 +412,7 @@ ul {
   .vertical-text {
     display: none;
   }
-  
+
   .center-container {
     width: 70%;
     margin: 16vh auto 5vh auto;
