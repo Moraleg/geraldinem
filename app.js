@@ -3,7 +3,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('main.hidden').fadeIn(1000).removeClass('hidden');
+    $('main.hidden').fadeIn(3500).removeClass('hidden');
 });
 
 // slideTimer = setInterval(function() {
