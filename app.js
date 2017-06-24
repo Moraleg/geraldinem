@@ -5,7 +5,3 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('main.hidden').fadeIn(3500).removeClass('hidden');
 });
-
-// slideTimer = setInterval(function() {
-//     $('.section-one-container').slideUp();
-// }, 2000);
