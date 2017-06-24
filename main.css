@@ -11,28 +11,28 @@ body {
 
 .vertical-text {
   transform: rotate(450deg);
-    transform-origin: left top 0;
-    float: right;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 0px 0px 0px 50px;
-    position: fixed;
-    display: inline-block;
-    color: #2a2a2a;
+  transform-origin: left top 0;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px 50px;
+  position: fixed;
+  display: inline-block;
+  color: #2a2a2a;
 }
 .vertical-text-w {
-    transform: rotate(4500deg);
-    transform-origin: left top 0;
-    float: right;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 0px 0px 0px 50px;
-    position: fixed;
-    display: inline-block;
-    color: #fff;
-    z-index: 300 !important;
+  transform: rotate(4500deg);
+  transform-origin: left top 0;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px 50px;
+  position: fixed;
+  display: inline-block;
+  color: #fff;
+  z-index: 300 !important;
 }
 /*********** HEADER ***********/
 header {
@@ -44,7 +44,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 
 nav {
   letter-spacing: 0.46px;
@@ -89,6 +88,7 @@ nav a:hover {
   letter-spacing: 2.45px;
   margin-bottom: 0;
 }
+
 .description {
   line-height: 1.8;
   margin: 3vh 0 5vh 0;
@@ -97,13 +97,30 @@ nav a:hover {
 .profession {
   color: #7EBDC2
 }
+
 .underline {
   border-bottom: 2px solid #7EBDC2;
   padding-bottom: 3px;
 }
+
 /*********** PROJECTS **********/
 
-/* Hungry For More */
+
+/* Built With */
+
+.ul {
+  margin-bottom: 5%;
+}
+
+li {
+  margin-right: 4%;
+  list-style-type: none;
+  display: inline-block;
+  color: #333;
+  font-weight: 900;
+}
+
+/* Adventure Times */
 .section-one-container {
   display: flex;
   flex-flow: row nowrap;
@@ -124,7 +141,7 @@ hr {
   margin-top: 3%;
 }
 
-.hungry-img {
+.adventure-img {
   display: block;
   width: 100vw;
   margin-left: 2vw;
@@ -164,33 +181,6 @@ ul {
   padding: 0;
 }
 
-.tech {
-  width: 10%;
-  display: inline-flex;
-  font-weight: 600;
-  margin-bottom: 6%;
-  text-align: center;
-  margin-left: 12%;
-}
-
-.tech-html {
-  width: 10%;
-  display: inline-flex;
-  font-weight: 600;
-  margin-bottom: 6%;
-  text-align: center;
-}
-
-.basic-tech {
-  width: 8%;
-  display: inline-flex;
-  font-weight: 600;
-  margin-bottom: 6%;
-  text-align: center;
-  margin-left: 25px;
-}
-
-
 .btn {
   border: 2px solid #D8D8D8;
   padding: 5px 30px;
@@ -209,7 +199,7 @@ ul {
 }
 
 
-.hungry-img img {
+.adventure-img img {
   height: 62vh;
 }
 
@@ -381,25 +371,10 @@ ul {
     flex-wrap: wrap;
   }
 
-  .tech {
-    display: inline-flex;
-    flex-flow: row wrap;
-    margin-left: 26%;
-  }
-  .tech-html {
-    flex-flow: row wrap;
-    display: inline-flex;
-
-  }
-  .basic-tech {
-    display: inline-flex;
-    flex-flow: row wrap;
-  }
-
-  .hungry-img {
+  .adventure-img {
     width: 100%;
   }
-  .hungry-img img {
+  .adventure-img img {
     width: 100%;
     height: 65%;
     margin-top: 22%;
@@ -500,26 +475,10 @@ ul {
     flex-wrap: wrap;
   }
 
-  .tech {
-    display: inline-flex;
-    flex-flow: row wrap;
-    margin-left: 26%;
-
-  }
-  .tech-html {
-    flex-flow: row wrap;
-    display: inline-flex;
-
-  }
-  .basic-tech {
-    display: inline-flex;
-    flex-flow: row wrap;
-  }
-
-  .hungry-img {
+  .adventure-img {
     width: 100%;
   }
-  .hungry-img img {
+  .adventure-img img {
     width: 100%;
     height: 65%;
     margin-top: 22%;
