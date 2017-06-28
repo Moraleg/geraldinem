@@ -152,7 +152,7 @@ hr {
   width: 100vw;
   align-items: center;
   justify-content: space-between;
-  margin-left: 6vw;
+  margin-left: 4vw;
 }
 
 .details-inverted {
@@ -376,7 +376,7 @@ ul {
   }
   .adventure-img img {
     width: 100%;
-    height: 75%;
+    height: 70%;
     margin-top: 22%;
   }
   .connect-img {
@@ -394,7 +394,7 @@ ul {
   }
   .fitkids-img img {
     width: 100%;
-    height: 75%;
+    height: 60%;
     margin-top: 22%;
   }
 
@@ -403,7 +403,7 @@ ul {
   }
   .getfit-img img {
     width: 100%;
-    height: 60%;
+    height: 50%;
     margin-top: 22%;
   }
   .section-one-container {
@@ -480,7 +480,7 @@ ul {
   }
   .adventure-img img {
     width: 100%;
-    height: 70%;
+    height: 65%;
     margin-top: 22%;
   }
   .connect-img {
@@ -489,7 +489,7 @@ ul {
 
   .connect-img img {
     width: 100%;
-    height: 70%;
+    height: 65%;
     margin-top: 22%;
   }
 
@@ -498,7 +498,7 @@ ul {
   }
   .fitkids-img img {
     width: 100%;
-    height: 65%;
+    height: 60%;
     margin-top: 22%;
   }
 
@@ -507,7 +507,7 @@ ul {
   }
   .getfit-img img {
     width: 100%;
-    height: 50%;
+    height: 40%;
     margin-top: 22%;
   }
   .section-one-container {
