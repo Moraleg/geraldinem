@@ -417,7 +417,6 @@ ul {
   }
 
   header {
-    /*background-color: rgba(216, 216, 216, 0.5);*/
     position: static;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.06);
   }
@@ -510,7 +509,6 @@ ul {
   }
 
   header {
-    /*background-color: rgba(216, 216, 216, 0.5);*/
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.06);
   }
 
