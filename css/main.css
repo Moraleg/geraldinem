@@ -363,6 +363,10 @@ ul {
      font-size: 14px;
   }
 
+  .center-container {
+    margin: 14vh auto 6vh auto;
+  }
+
    .profile-box {
       width: 90%;
       margin: 100% auto 0;
@@ -377,6 +381,124 @@ ul {
    description {
       text-align: center;
    }
+}
+
+
+@media (max-width: 550px) {
+
+  body {
+    margin: 0 auto;
+  }
+
+  .vertical-text {
+    display: none;
+  }
+
+  .clear {
+    display: inline-block;
+  }
+
+  nav {
+    letter-spacing: 0.46px;
+    margin: 2vh auto;
+    display: flex;
+  }
+
+  .details {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+  .details-inverted {
+    width: 100%;
+    /*text-align: center;*/
+  }
+
+
+  .title {
+    margin-top: 0;
+  }
+
+  ul {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .adventure-img {
+    width: 100%;
+  }
+  .adventure-img img {
+    width: 100%;
+    height: 65%;
+    margin-top: 22%;
+  }
+  .connect-img {
+    width: 100%;
+  }
+
+  .connect-img img {
+    width: 100%;
+    height: 65%;
+    margin-top: 22%;
+  }
+
+  .fitkids-img {
+    width: 100%;
+  }
+  .fitkids-img img {
+    width: 100%;
+    height: 60%;
+    margin-top: 22%;
+  }
+
+  .getfit-img {
+    width: 100%;
+  }
+  .getfit-img img {
+    width: 100%;
+    height: 40%;
+    margin-top: 22%;
+  }
+  .section-one-container {
+    width: 100vw;
+    margin-bottom: 5%;
+  }
+  .section-two-container {
+    width: 100vw;
+    margin-bottom: 8%;
+  }
+
+  .title {
+    font-size: 1.2em
+  }
+
+  .info {
+    font-size: .7em;
+    line-height: 1.4;
+  }
+
+  li {
+    font-size: .7em;
+  }
+
+  .btn {
+    font-size: .8em;
+  }
+
+  .hello {
+    font-size: 1.0em;
+  }
+
+  .discuss {
+    font-size: .7em;
+  }
+  .get-in-touch {
+    font-size: .7em;
+  }
+
+  footer {
+    margin-bottom: 4%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -504,127 +626,4 @@ ul {
     margin-bottom: 4%;
   }
 
-}
-
-
-@media (max-width: 550px) {
-
-  body {
-    margin: 0 auto;
-  }
-
-  .vertical-text {
-    display: none;
-  }
-
-  .clear {
-    display: inline-block;
-  }
-
-  .center-container {
-    /*width: 70%;*/
-    margin: 14vh auto 5vh auto;
-  }
-
-  nav {
-    letter-spacing: 0.46px;
-    margin: 2vh auto;
-    display: flex;
-  }
-
-  .details {
-    width: 100%;
-    /*text-align: center;*/
-  }
-
-  .details-inverted {
-    width: 100%;
-    /*text-align: center;*/
-  }
-
-
-  .title {
-    margin-top: 0;
-  }
-
-  ul {
-    margin: 0;
-    flex-wrap: wrap;
-  }
-
-  .adventure-img {
-    width: 100%;
-  }
-  .adventure-img img {
-    width: 100%;
-    height: 65%;
-    margin-top: 22%;
-  }
-  .connect-img {
-    width: 100%;
-  }
-
-  .connect-img img {
-    width: 100%;
-    height: 65%;
-    margin-top: 22%;
-  }
-
-  .fitkids-img {
-    width: 100%;
-  }
-  .fitkids-img img {
-    width: 100%;
-    height: 60%;
-    margin-top: 22%;
-  }
-
-  .getfit-img {
-    width: 100%;
-  }
-  .getfit-img img {
-    width: 100%;
-    height: 40%;
-    margin-top: 22%;
-  }
-  .section-one-container {
-    width: 100vw;
-    margin-bottom: 5%;
-  }
-  .section-two-container {
-    width: 100vw;
-    margin-bottom: 8%;
-  }
-
-  .title {
-    font-size: 1.2em
-  }
-
-  .info {
-    font-size: .7em;
-    line-height: 1.4;
-  }
-
-  li {
-    font-size: .7em;
-  }
-
-  .btn {
-    font-size: .8em;
-  }
-
-  .hello {
-    font-size: 1.0em;
-  }
-
-  .discuss {
-    font-size: .7em;
-  }
-  .get-in-touch {
-    font-size: .7em;
-  }
-
-  footer {
-    margin-bottom: 4%;
-  }
 }
