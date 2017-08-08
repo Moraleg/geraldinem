@@ -2,11 +2,19 @@
   border: 2px solid crimson;
 }*/
 
+@font-face {
+  font-family: 'Apercu-Regular';
+  src: url('fonts/ApercuRegular-f396cd8a.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 2% 0;
   padding: 0;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Apercu-Regular', 'Helvetica Neue', sans-serif;
   color: #333;
+  overflow-x: hidden;
 }
 
 .vertical-text {
@@ -20,6 +28,7 @@ body {
   position: fixed;
   display: inline-block;
   color: #2a2a2a;
+  bottom: 10%;
 }
 .vertical-text-w {
   transform: rotate(4500deg);
@@ -46,9 +55,7 @@ header {
 }
 
 nav {
-  letter-spacing: 0.46px;
-  width: 28%;
-  margin-right: 4%;
+  margin-right: 2%;
   display: flex;
   align-content: flex-end;
   justify-content: space-around;
@@ -61,7 +68,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #7EBDC2;
+  /*background-color: #7EBDC2;*/
+  background-color: #8884FF;
   color: white;
   padding: 5px 8px;
   cursor: pointer;
@@ -77,29 +85,59 @@ nav a:hover {
   text-align: center;
   margin-top: 16vh;
   margin-bottom: 5vh;
+  width: 100%;
+  max-width: 650px;
+  height: 100%;
+}
+
+.underline a {
+   text-decoration: none;
+   color: #333;
 }
 
 .hidden {
   display: none;
 }
 
+section {
+   display: flex;
+   flex-direction: column-reverse;
+   width: 100%;
+   margin: 0 auto;
+   max-width: 1200px;
+   height: 100%;
+}
+
+.about {
+   z-index: 200;
+   margin: 0 auto;
+}
+
 .name {
-  font-size: 2.5em;
-  letter-spacing: 2.45px;
+  font-size: 3.5em;
+  letter-spacing: 1px;
   margin-bottom: 0;
 }
 
 .description {
   line-height: 1.8;
-  margin: 3vh 0 5vh 0;
+  margin: 3vh 0 0 0;
+}
+
+.profile {
+   width: 100%;
+   box-shadow: 0 25px 50px rgba(0,0,0,.2);
 }
 
 .profession {
-  color: #7EBDC2
+  /*color: #7EBDC2*/
+  /*color: #8884FF;*/
+  color: #6622CC;
 }
 
 .underline {
-  border-bottom: 2px solid #7EBDC2;
+  /*border-bottom: 2px solid #8884FF;*/
+  border-bottom: 2px solid #6622CC;
   padding-bottom: 3px;
 }
 
@@ -109,7 +147,7 @@ nav a:hover {
 /* Built With */
 
 .ul {
-  margin-bottom: 5%;
+  margin-bottom: 25px;
 }
 
 li {
@@ -125,14 +163,14 @@ li {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  margin-top: 15vh;
+  margin-top: 16vh;
   padding: 3vw;
 }
 
 hr {
   width: 6%;
   text-align: left;
-  border-color: #7EBDC2;
+  border-color: #8884FF;
   border-style: solid;
 }
 
@@ -169,7 +207,7 @@ hr {
 .info {
   line-height: 1.8;
   color: #989DA1;
-  margin: 6% 0 4% 0;
+  margin: 6% 0 2% 0;
 }
 
 .tag {
@@ -182,17 +220,17 @@ ul {
 }
 
 .btn {
-  border: 2px solid #D8D8D8;
-  padding: 5px 30px;
+  border: 1px solid #8884FF;
+  padding: 10px 40px;
   text-decoration: none;
   color: #333;
   font-weight: 600;
   letter-spacing: 0.46px;
+  font-size: 14px;
 }
 
 .btn:hover{
-  border: 2px solid #7EBDC2;
-  background-color: #7EBDC2;
+  background-color: #8884FF;
   color: white;
   font-weight: 500;
   transition: 0.4s;
@@ -246,7 +284,7 @@ ul {
 
 /* Bottom */
 .bottom hr {
-  border: 1px solid #D8D8D8;
+  border: 1px solid rgba(216,216,216,0.25);
   margin-top: 10vh;
   width: 85vw;
   display: flex;
@@ -300,22 +338,63 @@ ul {
 }
 
 .fa-envelope-o:hover {
-  color: #7EBDC2;
+  color: #8884FF;
   cursor: pointer;
 }
 
 .fa-linkedin-square:hover {
-  color: #7EBDC2;
+  color: #8884FF;
   cursor: pointer;
 }
 
 .fa-github:hover {
-  color: #7EBDC2;
+  /*color: #7EBDC2;*/
+  color: #8884FF;
   cursor: pointer;
 }
 
 
 /*********** MEDIA BREAKPOINTS **********/
+
+@media (min-width: 320px) {
+   .profile-box {
+      width: 90%;
+      margin: 100% auto 0;
+   }
+
+   section {
+      flex-direction: column row-reverse;
+      width: 90%;
+      align-items: center;
+   }
+
+   description {
+      text-align: center;
+   }
+}
+
+@media (min-width: 800px) {
+   .profile-box {
+      width: 100%;
+   }
+
+   .about {
+      position: absolute;
+      left: 6.5%;
+      top: 42%;
+   }
+
+   .name {
+      font-size: 4.2vw;
+      text-align: left;
+   }
+
+   .description {
+     text-align: left;
+      margin: 3vh 0 5vh 0;
+   }
+}
+
 
 @media (max-width: 800px) {
 
@@ -324,7 +403,7 @@ ul {
   }
 
   .center-container {
-    width: 80%;
+    /*width: 80%;*/
     margin: 16vh auto 5vh auto;
   }
 
@@ -441,7 +520,7 @@ ul {
   }
 
   .center-container {
-    width: 70%;
+    /*width: 70%;*/
     margin: 16vh auto 5vh auto;
   }
 
@@ -449,10 +528,6 @@ ul {
     letter-spacing: 0.46px;
     margin: 2vh auto;
     display: flex;
-  }
-
-  .name {
-    font-size: 1.5em;
   }
 
   .details {

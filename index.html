@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <title>Geraldine Morales</title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
      <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="css/main.css">
      <script
      src="https://code.jquery.com/jquery-3.2.1.min.js"
      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -16,7 +15,7 @@
   <body>
 
     <!-- Header -->
-    <header>
+    <header class="hidden">
       <!-- <p>/* GET IN TOUCH */</p><br> -->
       <div class="clear"></div>
       <!-- Nav Links -->
@@ -31,9 +30,13 @@
     <!-- Center -->
     <section class="center-container hidden">
       <section>
-        <h2 class="name">Geraldine Morales</h2>
-        <p class="description">Hi I'm Geraldine! - a <span class="profession">Full Stack Web Developer</span> based in Miami, FL. <br>Currently building and learning @ <span class="underline">General Assembly</span></p>
-        <a href="mailto:geraldine.morales02@gmail.com" class="btn">Contact</a>
+         <div class="about">
+            <h2 class="name">Geraldine Morales</h2>
+            <p class="description">Hi I'm Geraldine! - a <span class="profession">Full Stack Web Developer</span> based in Miami, FL.<br/>Currently building digital experiences @ <span class="underline"><a href="http://www.rgba.la" target="_blank">RGBA</a></span></p>
+         </div>
+         <div class="profile-box parallax">
+            <img class="profile" src="images/profile.jpg" alt=""/>
+         </div>
       </section>
     </section>
     <main class="hidden">
@@ -66,7 +69,7 @@
       </div>
       <!-- Section 1 -->
       <section class="section-one-container">
-        <div class="adventure-img">
+        <div class="adventure-img parallax">
           <img src="images/adventuretimes.png" alt="Adventure Times Site Image">
         </div>
         <div class="details">
@@ -90,7 +93,7 @@
         <div class="details-inverted">
           <h1 class="title">Fit Kids</h1>
           <hr align="left">
-          <div class="info-container">
+          <div class="info-container parallax">
             <p class="info">A Three-model CRUD application for creating and sharing activities for children that encourage an active lifestyle. Parents can track and update their children's activity levels.</p>
           </div>
           <p class="info tag">/* BUILT WITH */</p>
@@ -109,7 +112,7 @@
       </section>
       <!-- Section Three -->
       <section class="section-two-container">
-        <div class="connect-img">
+        <div class="connect-img parallax">
           <img src="images/macbook-Connect.png" alt="Hungry For More Site Image">
         </div>
         <div class="details">
@@ -146,7 +149,7 @@
           </ul>
           <a href="https://salty-springs-24805.herokuapp.com/" target="_blank" class="btn">view</a>
         </div>
-        <div class="getfit-img">
+        <div class="getfit-img parallax">
           <img src="images/getfit.png" alt="Getfit Site Image">
         </div>
       </section>
@@ -164,6 +167,7 @@
       </div>
     </footer>
 
-  <script src="app.js"></script>
+   <script src="js/parallax.js"></script>
+  <script src="js/app.js"></script>
   </body>
 </html>
