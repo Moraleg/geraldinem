@@ -131,13 +131,13 @@ section {
 
 .profession {
   /*color: #7EBDC2*/
-  /*color: #8884FF;*/
-  color: #6622CC;
+  color: #8884FF;
+  /*color: #6622CC;*/
 }
 
 .underline {
-  /*border-bottom: 2px solid #8884FF;*/
-  border-bottom: 2px solid #6622CC;
+  border-bottom: 2px solid #8884FF;
+  /*border-bottom: 2px solid #6622CC;*/
   padding-bottom: 3px;
 }
 
