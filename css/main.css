@@ -75,6 +75,18 @@ nav a:hover {
   cursor: pointer;
 }
 
+.btn {
+   width: 200px; height: 100px;
+   background-size: 100% 200%;
+   background-image: linear-gradient(to bottom, #fff 50%, #8884FF 50%);
+   -webkit-transition: background-position 1s;
+   -moz-transition: background-position 1s;
+   transition: background-position 1s;
+}
+
+.btn:hover {
+   background-position: 0 -100%;
+}
 
 
 /*********** CENTER INTRO **********/
