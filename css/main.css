@@ -83,8 +83,6 @@ nav a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 16vh;
-  margin-bottom: 5vh;
   width: 100%;
   max-width: 650px;
   height: 100%;
@@ -364,7 +362,7 @@ ul {
   }
 
   .center-container {
-    margin: 14vh auto 6vh auto;
+    margin: 16vh auto 5vh auto;
   }
 
    .profile-box {
