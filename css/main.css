@@ -81,12 +81,37 @@ nav a:hover {
    background-image: linear-gradient(to bottom, #fff 50%, #8884FF 50%);
    -webkit-transition: background-position 1s;
    -moz-transition: background-position 1s;
+   -o-transition: background-position 1s;
    transition: background-position 1s;
 }
 
 .btn:hover {
    background-position: 0 -100%;
 }
+
+
+/*.btn {
+   position: relative;
+   z-index: 1;
+}
+
+.btn:after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transform: scaleY(0);
+   transform-origin: bottom center;
+   background: #8884FF;
+   z-index: -1;
+   transition: transform 1s;
+}
+
+.btn:hover::after {
+   transform: scaleY(1);
+}*/
 
 
 /*********** CENTER INTRO **********/
@@ -97,7 +122,7 @@ nav a:hover {
   text-align: center;
   width: 100%;
   max-width: 650px;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .underline a {
@@ -115,7 +140,7 @@ section {
    width: 100%;
    margin: 0 auto;
    max-width: 1200px;
-   height: 100%;
+   /*height: 100%;*/
 }
 
 .about {
@@ -172,8 +197,8 @@ li {
 .section-one-container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
-  margin-top: 16vh;
+  justify-content: center;
+  margin: 126px auto 0 auto;
   padding: 3vw;
 }
 
@@ -247,16 +272,13 @@ ul {
 }
 
 
-.adventure-img img {
-  height: 62vh;
-}
-
 /* Fit Kids */
 .section-two-container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0 2vw;
+  margin: 0 auto
 }
 
 .fitkids-img {
@@ -288,9 +310,6 @@ ul {
   margin-right: 3vw;
 }
 
-.getfit-img img {
-  height: 44vh;
-}
 
 /* Bottom */
 .bottom hr {
@@ -374,7 +393,7 @@ ul {
   }
 
   .center-container {
-    margin: 16vh auto 5vh auto;
+    margin: 100px auto;
   }
 
    .profile-box {
@@ -516,10 +535,15 @@ ul {
       width: 100%;
    }
 
+   .center-container {
+     /*width: 80%;*/
+     margin: 120px auto 150px;
+   }
+
    .about {
       position: absolute;
       left: 6.5%;
-      top: 42%;
+      top: 314px;
    }
 
    .name {
@@ -531,6 +555,22 @@ ul {
      text-align: left;
       margin: 3vh 0 5vh 0;
    }
+
+   .adventure-img img, .fitkids-img img, .connect-img img {
+     height: 50vh;
+   }
+
+   .details {
+     margin-bottom: 18%;
+   }
+
+   .details-inverted {
+      margin-bottom: 5%;
+   }
+
+   #fitkids {
+     margin-bottom: 18%;
+   }
 }
 
 
@@ -538,11 +578,6 @@ ul {
 
   body {
     margin: 0 auto;
-  }
-
-  .center-container {
-    /*width: 80%;*/
-    margin: 16vh auto 5vh auto;
   }
 
   .vertical-text {
@@ -618,15 +653,18 @@ ul {
   .getfit-img {
     width: 100%;
   }
+
   .getfit-img img {
     width: 100%;
     height: 50%;
     margin-top: 22%;
   }
+
   .section-one-container {
     width: 100vw;
     margin-bottom: 5%;
   }
+
   .section-two-container {
     width: 100vw;
     margin-bottom: 8%;
@@ -635,5 +673,21 @@ ul {
   footer {
     margin-bottom: 4%;
   }
+
+}
+
+@media (min-width: 1200px) {
+
+   .adventure-img img, .fitkids-img img, .connect-img img {
+     height: 62vh;
+   }
+
+   .getfit-img img {
+     height: 44vh;
+   }
+
+   .about {
+      left: 10%;
+   }
 
 }
