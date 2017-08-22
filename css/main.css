@@ -560,6 +560,10 @@ ul {
      height: 50vh;
    }
 
+   .getfit-img img {
+      height: 35vh;
+   }
+
    .details {
      margin-bottom: 18%;
    }
