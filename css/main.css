@@ -106,12 +106,12 @@ nav a:after {
 
 .resume:hover:after {
    width: 23%;
-   left: 50%;
+   left: 48%;
 }
 
 .contact:hover:after {
    width: 23%;
-   left: 75%;
+   left: 74%;
 }
 
 .btn {
