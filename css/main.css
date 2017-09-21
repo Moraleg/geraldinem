@@ -191,11 +191,16 @@ section {
   font-size: 3.5em;
   letter-spacing: 1px;
   margin-bottom: 0;
+  color: #8884FF;
 }
 
 .description {
   line-height: 1.8;
   margin: 3vh 0 0 0;
+  padding: 6px 10px;
+  background-color: rgba(0,0,0,0.2);
+  color: #EEE;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .profile {
@@ -213,6 +218,10 @@ section {
   border-bottom: 2px solid #8884FF;
   /*border-bottom: 2px solid #6622CC;*/
   padding-bottom: 3px;
+}
+
+.underline a {
+   color: #EEE;
 }
 
 /*********** PROJECTS **********/
