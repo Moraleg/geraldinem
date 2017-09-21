@@ -237,7 +237,7 @@ li {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  margin: 126px auto 0 auto;
+  margin: 0 auto;
   padding: 3vw;
 }
 
